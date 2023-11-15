@@ -13,8 +13,12 @@ namespace parcial2
             //debe recuperarse el valor nombre de usuario de la Session anterior
             if (this.Session["nombreUsuario"] != null)
             {
-                Label1.Text = "Bienvenido " + Session["nombreUsuario"].ToString();
+                Label1.Text = " Bienvenido " + Session["nombreUsuario"].ToString() +" a la página de carga de archivos. ";
                 cargarGrilla();
+            }
+            else
+            {
+                Response.Redirect("Registracion.aspx");
             }
         }
 

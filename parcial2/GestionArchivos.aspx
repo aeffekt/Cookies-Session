@@ -2,11 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Label ID="Label1" runat="server" BorderColor="#0000CC" BorderWidth="2px" CssClass="text-bg-light" Font-Bold="True" Font-Size="18px"></asp:Label>
+    <asp:Label ID="Label1" runat="server" BorderColor="#666699" BorderWidth="2px" CssClass="text-bg-light" Font-Bold="True" Font-Size="18px" BorderStyle="Groove"></asp:Label>
     <br />
     <br />
     <asp:FileUpload class="btn btn-outline-light" ID="FileUpload1" runat="server" AllowMultiple="True" />
-    <br />
     <asp:Label ID="Label2" runat="server"></asp:Label>
     <br />
     <asp:Button class="btn btn-outline-light" ID="LoadFileButton" runat="server" Text="Cargar Archivo/s" OnClick="LoadFileButton_Click" BorderWidth="3px" Font-Bold="True" Font-Size="18px" />
